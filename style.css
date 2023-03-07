@@ -11,6 +11,14 @@
 .none {
   opacity: 0;
 }
+.bold {
+  font-weight: 600;
+  color: black;
+}
+.gold {
+  color: rgb(160, 140, 106);
+}
+
 h1 {
   font-weight: lighter;
   padding-left: 500px;
@@ -118,6 +126,54 @@ h1 {
   transition: 0.2s;
   padding-bottom: 50px;
 }
+.card2 {
+  transition: 0.2s;
+}
+.card4 {
+  transition: 0.2s;
+}
 .card3 {
+  transition: 0.2s;
+
   padding-bottom: 50px;
+}
+.desc_card {
+  background-color: none;
+  /* padding-left: 100px; */
+  padding-bottom: 200px;
+  width: 500px;
+}
+
+.desc_card > p {
+  width: 400px;
+  padding-bottom: 20px;
+}
+.desription {
+  top: 1500px;
+  left: 10%;
+  position: absolute;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+  display: flex;
+}
+.desc_card3 {
+  margin-top: 100px;
+  margin-left: -20px;
+}
+.desc_card4 {
+  /* margin-left: 50px; */
+  margin-top: 100px;
+  margin-left: -20px;
+}
+.desc_card1 {
+  margin-top: 100px;
+}
+.desc_card2 {
+  margin-top: 100px;
+}
+.desc_card > button {
+  background-color: rgb(160, 140, 106, 0.2);
+  width: 300px;
+  padding: 10px;
 }
