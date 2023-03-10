@@ -7,6 +7,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 .none {
   opacity: 0;
@@ -73,8 +74,8 @@ h2 {
   margin: 75px 0px;
 } */
 .logo_img {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
 }
 .Berlin_1 {
   opacity: 0.9;
@@ -277,7 +278,7 @@ h2 {
 }
 .input {
   background-color: #fffff0;
-  margin-left: 20px;
+  margin-left: 15px;
 }
 .input2 {
   background-color: #fffff0;
@@ -294,4 +295,68 @@ h2 {
 }
 .button_book:hover {
   background-color: #f2f2f2;
+}
+.Contact {
+  background-color: #fffff0;
+}
+.flex_input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: auto;
+  margin: 0 auto;
+}
+.contact_input {
+  background-color: #fffff0;
+  margin-top: 30px;
+  padding: 10px;
+  margin-right: 20px;
+}
+.input2 {
+  margin-left: 10px;
+}
+.input1 {
+  margin-left: 10px;
+}
+.contact_input2 {
+  background-color: #fffff0;
+  padding: 10px;
+  width: 530px;
+  margin: 50px 0px;
+}
+.contact_button {
+  width: 250px;
+  background-color: rgb(160, 140, 106, 0.2);
+  cursor: pointer;
+  margin-bottom: 50px;
+  padding: 10px;
+}
+.contact_button:hover {
+  background-color: #f2f2f2;
+}
+.roompic {
+  margin-top: 50px;
+  opacity: 0.9;
+  width: 100%;
+}
+.footer {
+  background-color: #fffff0;
+  height: fit-content;
+}
+.footer_flex {
+  margin-left: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.logoug {
+  margin-right: 20px;
+  width: 20px;
+}
+.footerspan {
+  padding-right: 20px;
+  width: 200px;
+  font-size: 15px;
 }
